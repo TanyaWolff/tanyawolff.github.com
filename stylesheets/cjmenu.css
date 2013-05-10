@@ -1,0 +1,162 @@
+div.floated {
+  width: 400px;
+  float: left;
+  margin-left: 1px;
+}
+ul {
+
+margin:0;
+padding:0;
+overflow:hidden;
+}
+li {
+
+width: 100%;
+background: lightgreen;
+color: darkblue;
+font-family: arial;
+display:block;
+text-align:left;
+
+
+}
+li:hover{background:blue; color: white}
+.myMenu {
+  float: left;
+  height: 20px;
+  overflow: hidden;
+  background-color: lightgreen;
+ 
+  }
+div#menus {
+width: 100%;
+   position:fixed;
+   top:60px;
+  z-index:100;
+}
+div#menus.myMenu {
+  float: left;
+  width: 200px;
+  display: block;
+  height: 20px;
+  line-height: 20px;
+  overflow: hidden;
+  border: 1px solid blue;
+   z-index:101;
+}
+
+#menus.myMenu span, #menus.myMenu a {
+  display: block;
+  padding: 0 0px;
+}
+
+
+div#menus.myMenu a:hover {
+ 
+  
+}
+
+a:link,a:visited
+{
+
+
+font-weight:bold;
+color:darkblue;
+background-color:lightblue;
+text-align:center;
+padding:0px;
+text-decoration:none;
+text-transform:uppercase;
+}
+a:visited
+{
+color:darkblue;
+}
+a:hover{background:red; color: white;}
+body {
+font-family: arial;
+font-size: 12px;
+line-height: 20px;
+color: darkblue;
+height:750px;
+}
+div#home {
+margin:80px 200px; 0 200px;
+position:relative;
+z-index: 99;
+height: 100%;
+font-family: arial,anonymous,fixedsys,lucida,monospace;;
+}
+scrollbar-face-color: #336699; scrollbar-3dlight-color: yellow; scrollbar-base-color: #336699;
+scrollbar-track-color: #336699; scrollbar-darkshadow-color: #000; scrollbar-arrow-color: red;
+scrollbar-shadow-color: #fff; scrollbar-highlight-color: #fff;
+
+pre {
+font-family: anonymous,fixedsys,lucida,monospace;
+font-size: 9px;
+line-height: 20px;
+font-color: blue;
+}
+.def{
+display: none;
+border: 10px solid #99ccc9;
+background: lightblue;
+width: 50%;
+color:black;
+font-size: 10;
+font-family: arial;
+font-weight: bold;
+float: left;
+margin-left: -100px;
+}
+.right{
+border: 10px solid white;
+background: white;
+width: 50%;
+color:blue;
+font-size: 10;
+font-family: arial;
+font-weight: bold;
+float: right;
+margin-right: 0px;
+}
+.notice {
+float: right;
+border: 10px solid #ffcc66;
+margin-right: -100;
+background: #ffff99;
+width:200px;
+}
+legendR{
+background: lightgreen;
+color: white;
+font-size: 12;
+font-family: arial;
+font-weight: bold;
+}
+
+div#page {
+width: 200px;
+background: #ffee8a;
+position: fixed;
+top: 200px;
+left: 0px;
+text-align: center;
+}
+#debug {
+background=red;
+position: absolute;
+bottom: 50px;
+}
+twit.twitterbird {
+display:block;
+ 
+ width: 20px;
+ height:20px;
+ 
+ background-image: url("images/twitter.jpg") center top no-repeat;
+}
+
+.twitterbird:hover {
+   background-image: url('images/twitter_h.jpg.png');
+}

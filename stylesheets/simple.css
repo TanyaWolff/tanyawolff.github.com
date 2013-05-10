@@ -1,0 +1,144 @@
+body { 
+	margin:0;	
+}
+A:hover {
+	text-decoration: underline; color:red;
+}
+#layers {
+	position: relative;
+	
+}
+#line { 	
+	width: 100%;	
+	background: url("../images/CelticKnot.JPG") repeat-x; 
+	height: 31px;
+	z-index: 2;
+}
+ #content {
+	margin: 100;
+
+margin-top:0;
+        float: left;
+	background-color:   #ffff99;
+        border: 3px solid darkred;
+        
+        padding: 25px;
+        width: 500px;
+      }
+h1 { 
+text-align: center;
+}
+#banner {	
+  position: relative;
+  top: -50;
+  left: -25;
+ 
+  width: 110%;
+	background-color: darkred; 	
+	height: 60px;
+	z-index: 1;
+color: white
+}
+
+#columns {
+}
+#side {
+  	float: left;
+  	width: 100px;
+	top: 100px;
+   	margin: 0 0;
+  	text-align: left;
+  	font-size: small;	
+	padding: 10px;
+}
+
+#side img {
+   
+  	width:  100px;
+}
+#main {
+  	float: left;
+  	width: 750px;
+	height: 542px;
+	top: 100px;	 	
+  	background: url("../images/lakeOct2008.JPG") no-repeat;
+	padding: 10px;
+  	font-size: small;
+  	font-family: arial;
+	color: blue;
+}
+div#light {
+	color: white; 
+	weight: bold; 
+	width: 400px;
+}
+#rside {
+  	float: left;
+  	width: 10%;
+	top: 100px;	
+  	text-align: left;
+  	color: #ffff99;
+  	font-size: small;
+	font-family: arial;
+	opacity: 0.8;
+}
+#rside img {
+	width:  100px;
+}
+#bottom {
+  	clear:both;
+  	padding: 10px;
+  	width: 730px;
+  	background: darkred;
+  	text-align: right;
+	font-family: arial;
+  	color: #ffff99;
+  	font-size: small;
+	margin: 0px;
+	opacity: 0.9;
+}
+div#greenbox {
+	background-color:green;
+	opacity:.5;
+	width:500px;
+	color: white; 
+	font-weight: bold; 
+	font-size: 20px;
+}
+
+
+#mytext {
+          margin:               1px;
+	  color:                #000000;
+          font-family:          Geneva, Arial, Helvetica, sans-serif;
+          font-size:            10pt;
+	  
+}    
+div#header
+        {
+          background-color:     #ffffff;
+          color:                #666666;
+          text-align:           right;
+          font-family:          Verdana, Arial, Helvetica, sans-serif;
+          font-size:            7.5pt;
+          padding-top:          5px;
+          padding-right:        8px;
+        }
+div#footer {
+          color:                #999999;
+          text-align:           center;
+          font-size:            8pt;
+        }
+     
+td.heading {
+          font-weight:          bold;
+        }
+      
+      
+div#textbody {
+          padding-right:        25px;
+          padding-left:         25px;
+	  background:		"field.jpg"
+      }
+     
+   
